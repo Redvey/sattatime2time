@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "565042373383",
+    "project_id": "matka-b9d63",
+    "storage_bucket": "matka-b9d63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565042373383:android:3a03ce2bf6a49ff7cd5ba2",
+        "android_client_info": {
+          "package_name": "com.example.livesattabazar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmCLRxJpbvUo_PoUi03vn2tpiMVhEZoAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
