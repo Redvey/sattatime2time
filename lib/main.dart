@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:livesattabazar/firebase_options.dart';
 import 'package:livesattabazar/provider/themes_provider.dart';
@@ -8,11 +9,11 @@ import 'package:provider/provider.dart';
 
 void main() async{
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  // await Future.delayed(
-  //   const Duration(seconds: 1),
-  // );
-  // FlutterNativeSplash.remove();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  await Future.delayed(
+    const Duration(seconds: 1),
+  );
+  FlutterNativeSplash.remove();
   await Firebase.initializeApp(
     options:  DefaultFirebaseOptions.currentPlatform
   );

@@ -10,7 +10,7 @@ class AppText {
   static const String delhi = "Delhi";
 
   // -- GLOBAL Texts
-  static const String title = "LiveSattaBazaar";
+  static const String title = "Satta Time 2 Time";
   static const String bannerTop = "Satta King live result update matkaking";
   static const String bannerBetween = "Satta King live result";
   static const String submit = "Submit";
@@ -139,7 +139,7 @@ Duissunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
   //Image URLs
-  static const String titleLogo = "assets/images/titleLogo.png";
+  static const String titleLogo = "assets/images/titleLogo_2.png";
 
 
 

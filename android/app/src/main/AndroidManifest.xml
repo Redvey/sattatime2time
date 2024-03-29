@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="livesattabazar"
+        android:label="Satta time 2 time"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:livesattabazar/screens/home_page/components/app_icon.dart';
 import 'package:livesattabazar/screens/onboarding/components/text_fields.dart';
 
 import '../../consts/app_drawer.dart';
 import '../../consts/colors.dart';
+import '../../consts/strings.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -14,7 +16,11 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       appBar:  AppBar(
         backgroundColor: primaryColor,
-        title: const Icon(CupertinoIcons.helm), // Replace with your app's title
+        title: SizedBox(
+          height: 100.sp,
+          width: 100.sp,
+          child: Image.asset(AppText.titleLogo),
+        ), // Replace with your app's title
         leading: Builder(
           builder: (context) => IconButton(
             icon: const Icon(Icons.menu), // Hamburger menu icon
